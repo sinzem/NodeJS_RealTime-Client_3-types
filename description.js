@@ -5,6 +5,7 @@
 
 // Client    
     // npx create-react-app my-app - создаем новое приложение, удаляем лишнее
+    // npm i axios
     // npm start - запуск
 
 // Server
