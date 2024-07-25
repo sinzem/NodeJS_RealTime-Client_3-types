@@ -7,11 +7,15 @@
     // npx create-react-app my-app - создаем новое приложение, удаляем лишнее
     // npm i axios
     // npm start - запуск
+    // !!! В index.js ОТКЛЮЧАЕМ STRICT.MODE - в dev-режиме при запуске приложения дублирует рендер, получится сразу два одинаковых запроса, что в дальнейшем ламает все приложение
+
 
 // Server
     // npm init -y - быстрая инициализация
     // npm i express cors ws nodemon
 
-    // longpulling.js - запуск npm run start
+    // longpulling.js - запуск npm run start:pull
 
-    // Пример работы Long pulling в документах с соответствующими названиями в server и client - все работает, но при первом запросе клиента срабатывает двойной запрос, после обновления страницы все работает нормально
+    // Пример работы Long pulling в документах с соответствующими названиями в server и client
+
+    // eventsource.js - запуск npm run start:event
