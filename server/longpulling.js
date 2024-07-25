@@ -22,8 +22,10 @@ app.get('/get-messages', (req, res) => { /* (первым пишем путь з
 app.post('/new-messages', ((req, res) => {
     const message = req.body; /* (получаем из пост-запроса сообщение) */
     emitter.emit('newMessage', message); /* (передаем на рассылку в гет-эндпоинт(по имени)) */
-    res.status(200);
+    res.status(200).json("ok"); /* (обязательно завершаем операцию(автор закончил на статусе, без ответа - это ламало все приложение)) */
 }))
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+
+
 
