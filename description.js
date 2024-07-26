@@ -19,3 +19,5 @@
     // Пример работы Long pulling в документах с соответствующими названиями в server и client
 
     // eventsource.js - запуск npm run start:event
+
+    // websocket.js - запуск npm run start:ws
