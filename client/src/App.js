@@ -1,6 +1,6 @@
 import Longpulling from './Longpulling';
 import EventSourcing from './EventSourcing';
-import WebSocket from '../WebSocket';
+import WebSocket from './WebSock';
 import './App.css';
 
 
